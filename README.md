@@ -25,9 +25,7 @@ rm -rf ~/temp-config
 ## add to .zshrc
 
 ```bash
-echo "
 # sets path for tmuxifier and starts it
 export PATH="$HOME/.tmuxifier/bin:$PATH"
 eval "$(tmuxifier init -)"
-" >> ~/.zshrc
 ```
