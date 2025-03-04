@@ -8,7 +8,7 @@
 ## update and install requirements
 
 ```bash
-yay -Syu && yay -S neovim tmux
+yay -Syu && yay -S neovim tmux npm
 ```
 
 ## clone repo directly to your .config
@@ -22,7 +22,7 @@ sudo cp -r ~/temp-config/. ~/
 rm -rf ~/temp-config
 ```
 
-## add to .zshrc
+## add to .zshrc (optional)
 
 ```bash
 # sets path for tmuxifier and starts it
