@@ -8,7 +8,7 @@
 ## update and install requirements
 
 ```bash
-yay -Syu && yay -S neovim tmux npm
+yay -Syu && yay -S neovim tmux npm fzf
 ```
 
 ## clone repo directly to your .config
