@@ -11,7 +11,7 @@ return {
       enable_cursor_planning_mode = true, -- gives the model the cursors position as context
     },
     ollama = {
-      model = "qwen2.5-coder:3b", -- your desired model (or use gpt-4o, etc.)
+      model = "qwen2.5-coder:7b", -- your desired model (or use gpt-4o, etc.)
       endpoint = "http://put_tailscale_here.ts.net:11434",
       timeout = 30000, -- Timeout in milliseconds, increase this for reasoning models
       temperature = 0,
