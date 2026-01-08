@@ -10,3 +10,5 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
+-- for symmetrical GPG encryption
+vim.g.GPGPreferSymmetric = 1
