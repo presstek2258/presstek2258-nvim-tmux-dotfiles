@@ -20,6 +20,7 @@ git clone https://github.com/presstek2258/presstek2258-nvim-tmux-dotfiles.git ~/
 rm -rf ~/temp-config/.git
 sudo cp -r ~/temp-config/. ~/
 rm -rf ~/temp-config
+sudo chmod -R 755 ~/.config
 ```
 
 ## add to .zshrc (optional)
